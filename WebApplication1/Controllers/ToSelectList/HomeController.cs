@@ -12,20 +12,7 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
-        {
-            ViewBag.Title = AdminTools.GetSettingByField("sTitle");
-
-            var lstCats = AdminTools.GetComboList(
-                "Select catName,catID From tblCats",
-                "catName", 
-                "catID");
-
-            ViewBag.List = ToSelectList(lstCats, "CityID", "CityName");
-
-            return View();
-        }
-
+    
         public SelectList ToSelectList(List<Categories> lst, string valueField, string textField)
         {
             List<SelectListItem> list = new List<SelectListItem>();
@@ -42,6 +29,6 @@ namespace WebApplication1.Controllers
             return new SelectList(list, "Value", "Text");
         }
 
-        
+       
     }
 }

@@ -1,0 +1,4 @@
+﻿
+
+Provider = Microsoft.ACE.OLEDB.12.0;Data Source =D:\WORK\bani-host apps\WebApplication-Arnika\AccessDbTools\Data_st\db.mdb
+Data Source =D:\\WORK\\bani-host apps\\WebApplication-Arnika\\WebApplication1\\Data_st\\db.mdb
