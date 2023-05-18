@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDbTools", "AccessDbTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{CD96E076-1EDE-4F66-8778-63C31287E50B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSRC", "..\..\..\Desktop-1401\Projects Desktop-1401\Visual Studio 2015-projects\desk-1400-apps\WinApp ExtractPageLink\RSRC\RSRC.csproj", "{66FA457A-D445-472A-A77D-C9BF9B021911}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSRC", "RSRC\RSRC.csproj", "{66FA457A-D445-472A-A77D-C9BF9B021911}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

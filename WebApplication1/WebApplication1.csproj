@@ -212,10 +212,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Desktop-1401\Projects Desktop-1401\Visual Studio 2015-projects\desk-1400-apps\WinApp ExtractPageLink\RSRC\RSRC.csproj">
-      <Project>{66fa457a-d445-472a-a77d-c9bf9b021911}</Project>
-      <Name>RSRC</Name>
-    </ProjectReference>
     <ProjectReference Include="..\AccessDbTools\AccessDbTools.csproj">
       <Project>{d9f3a1b0-d86d-46d4-9ef9-a4c175670e32}</Project>
       <Name>AccessDbTools</Name>
